@@ -355,10 +355,10 @@ export default function Header() {
             pathname.startsWith('/find')
           }
         >
-          {t('pool')}
+          {t('NFT Marketplace')}
         </StyledNavLink>
         <StyledNavLink id={`stake-nav-link`} to={'/vote'}>
-          Vote
+          Governance
         </StyledNavLink>
         <StyledExternalLink id={`stake-nav-link`} href={'https://info.uniswap.org'}>
           Charts <span style={{ fontSize: '11px', textDecoration: 'none !important' }}>↗</span>
