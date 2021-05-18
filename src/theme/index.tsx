@@ -199,7 +199,7 @@ export const ThemedBackground = styled.div<{ backgroundColor?: string | undefine
   background: ${({ backgroundColor }) =>
     `radial-gradient(50% 50% at 50% 50%, ${
       backgroundColor ? backgroundColor : '#fc077d10'
-    } 0%, rgba(255, 255, 255, 0) 100%)`};
+    } 0%, RGBA(0,255,80,0.4) 100%)`};
   transform: translateY(-100vh);
   will-change: background;
   transition: background 450ms ease;
